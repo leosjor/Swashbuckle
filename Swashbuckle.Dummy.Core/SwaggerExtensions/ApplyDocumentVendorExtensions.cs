@@ -7,7 +7,7 @@ namespace Swashbuckle.Dummy.SwaggerExtensions
     {
         public void Apply(SwaggerDocument swaggerDoc, SchemaRegistry schemaRegistry, IApiExplorer apiExplorer)
         {
-            swaggerDoc.vendorExtensions.Add("x-document", "foo");
+            //swaggerDoc.vendorExtensions.Add("x-document", "foo");
         }
     }
 }

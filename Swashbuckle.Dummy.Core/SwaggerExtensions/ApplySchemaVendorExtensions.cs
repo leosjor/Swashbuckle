@@ -11,8 +11,8 @@ namespace Swashbuckle.Dummy.SwaggerExtensions
 
             var nullableUnderlyingType = Nullable.GetUnderlyingType(type);
 
-            schema.vendorExtensions.Add("x-type-dotnet", (nullableUnderlyingType ?? type).FullName);
-            schema.vendorExtensions.Add("x-nullable", nullableUnderlyingType != null || !type.IsValueType);
+            //schema.vendorExtensions.Add("x-type-dotnet", (nullableUnderlyingType ?? type).FullName);
+            //schema.vendorExtensions.Add("x-nullable", nullableUnderlyingType != null || !type.IsValueType);
         }
     }
 }

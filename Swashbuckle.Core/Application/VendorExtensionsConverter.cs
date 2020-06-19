@@ -22,6 +22,7 @@ namespace Swashbuckle.Application
 
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
+            return;
             var jsonContract = (JsonObjectContract)serializer.ContractResolver.ResolveContract(value.GetType());
 
             writer.WriteStartObject();

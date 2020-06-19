@@ -52,7 +52,7 @@ namespace Swashbuckle.Swagger
 
             partialSchema.type = schema.type;
             partialSchema.format = schema.format;
-            partialSchema.vendorExtensions = schema.vendorExtensions;
+            //partialSchema.vendorExtensions = schema.vendorExtensions;
 
             if (schema.items != null)
             {

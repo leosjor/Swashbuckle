@@ -36,7 +36,7 @@ namespace Swashbuckle.Swagger
 
         public ExternalDocs externalDocs;
 
-        public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
+        //public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
     }
 
     public class Info
@@ -53,7 +53,7 @@ namespace Swashbuckle.Swagger
 
         public License license;
 
-        public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
+        //public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
     }
 
     public class Contact
@@ -93,7 +93,7 @@ namespace Swashbuckle.Swagger
 
         public IList<Parameter> parameters;
 
-        public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
+        //public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
     }
 
     public class Operation
@@ -122,7 +122,7 @@ namespace Swashbuckle.Swagger
 
         public IList<IDictionary<string, IEnumerable<string>>> security;
 
-        public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
+        //public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
     }
 
     public class Tag
@@ -133,7 +133,7 @@ namespace Swashbuckle.Swagger
 
         public ExternalDocs externalDocs;
 
-        public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
+        //public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
     }
 
     public class ExternalDocs
@@ -222,7 +222,7 @@ namespace Swashbuckle.Swagger
 
         public object example;
 
-        public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
+        //public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
     }
 
     public class PartialSchema
@@ -261,7 +261,7 @@ namespace Swashbuckle.Swagger
 
         public int? multipleOf;
 
-        public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
+        //public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
     }
 
     public class Response
@@ -274,7 +274,7 @@ namespace Swashbuckle.Swagger
 
         public object examples;
 
-        public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
+        //public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
     }
 
     public class Header : PartialSchema
@@ -313,6 +313,6 @@ namespace Swashbuckle.Swagger
 
         public IDictionary<string, string> scopes;
 
-        public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
+        //public Dictionary<string, object> vendorExtensions = new Dictionary<string, object>();
     }
 }

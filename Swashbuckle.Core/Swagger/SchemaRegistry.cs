@@ -13,6 +13,7 @@ using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Serialization;
 using Newtonsoft.Json.Converters;
 using System.Net.Http.Formatting;
+using System.Web;
 
 namespace Swashbuckle.Swagger
 {
@@ -272,7 +273,7 @@ namespace Swashbuckle.Swagger
                 _workItems.Add(type, new WorkItem { SchemaId = schemaId });
             }
 
-            return new Schema { @ref = "#/definitions/" + _workItems[type].SchemaId };
+            return new Schema { @ref =  "#/definitions/" + _workItems[type].SchemaId };
         }
 
         private Schema FilterSchema(Schema schema, JsonContract jsonContract)
